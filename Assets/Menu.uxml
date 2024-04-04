@@ -1,0 +1,71 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/Menu.uss?fileID=7433441132597879392&amp;guid=b8224624cb484bb4997c483f439dd5d0&amp;type=3#Menu" />
+    <ui:VisualElement name="Menu" class="Menu" style="height: 713px; color: rgb(202, 199, 199); width: 1360px; justify-content: center; align-items: center;">
+        <ui:VisualElement name="PanelIzq" style="width: 366px;">
+            <ui:VisualElement name="Header" style="height: 128px; justify-content: center; background-image: url(&apos;project://database/Assets/desplazamiento-pergamino-abierto-realista-transparente_107791-19331-Photoroom.png-Photoroom.png?fileID=2800000&amp;guid=7e422c3add3e38e4b807806e1878bad9&amp;type=3#desplazamiento-pergamino-abierto-realista-transparente_107791-19331-Photoroom.png-Photoroom&apos;); -unity-background-scale-mode: stretch-to-fill; width: 351px;">
+                <ui:Label text="ESTADISTICAS" display-tooltip-when-elided="true" name="TituloEstados" class="text" style="-unity-text-align: upper-center; font-size: 20px; -unity-font-style: bold;" />
+            </ui:VisualElement>
+            <ui:VisualElement name="Body" style="height: 378px; background-image: none; width: 167px; justify-content: center; align-items: center; background-color: rgba(0, 0, 0, 0.43); border-top-left-radius: 15px; border-bottom-left-radius: 15px; border-top-right-radius: 15px; border-bottom-right-radius: 15px; margin-left: 10px; padding-bottom: 0; margin-bottom: 5px;">
+                <ui:Label text="Estadistica1:  1" display-tooltip-when-elided="true" style="height: 25px; font-size: 16px; -unity-font-style: normal;" />
+                <ui:Label text="Estadistica2:  1" display-tooltip-when-elided="true" style="height: 25px; font-size: 16px;" />
+                <ui:Label text="Estadistica3:  1" display-tooltip-when-elided="true" style="height: 25px; font-size: 16px;" />
+                <ui:Label text="Estadistica4:  1" display-tooltip-when-elided="true" style="height: 25px; font-size: 16px;" />
+                <ui:Label text="Estadistica5:  1" display-tooltip-when-elided="true" style="height: 25px; font-size: 16px;" />
+                <ui:Label text="Estadistica6:  1" display-tooltip-when-elided="true" style="height: 25px; font-size: 16px;" />
+                <ui:Label text="Estadistica7:  1" display-tooltip-when-elided="true" style="height: 22px; font-size: 16px;" />
+                <ui:Label text="Estadistica8:  1" display-tooltip-when-elided="true" style="height: 25px; font-size: 16px;" />
+            </ui:VisualElement>
+            <ui:VisualElement name="Footer" style="height: 192px; align-items: stretch; margin-left: 10px; background-color: rgba(0, 0, 0, 0.42); border-top-left-radius: 15px; border-bottom-left-radius: 15px; border-top-right-radius: 15px; border-bottom-right-radius: 15px; justify-content: center; width: 242px; flex-direction: column; margin-bottom: 10px;">
+                <ui:Label text="Estados alterados:" display-tooltip-when-elided="true" style="height: 30px; -unity-text-align: upper-left; flex-wrap: nowrap; flex-direction: column; white-space: nowrap; font-size: 16px; -unity-font-style: bold; margin-left: 5px; margin-right: 5px; margin-top: 5px; margin-bottom: 5px;" />
+                <ui:Label text="Estado 1" display-tooltip-when-elided="true" style="height: 23px; margin-left: 15px;" />
+                <ui:Label text="Estado2" display-tooltip-when-elided="true" style="height: 23px; margin-left: 15px;" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+        <ui:VisualElement name="PanelCentral" style="width: 551px; flex-direction: column; background-color: rgba(0, 90, 255, 0); background-image: none; display: flex; align-items: center; justify-content: center; height: 696px;">
+            <ui:VisualElement name="Body" style="height: 534px; background-image: none; align-items: center; justify-content: center;">
+                <ui:VisualElement style="height: 74px;" />
+                <ui:VisualElement name="Personaje" style="height: 426px; background-image: url(&apos;project://database/Assets/580b57fcd9996e24bc43c351.png?fileID=2800000&amp;guid=6eb93ab1428f2714bbcd1d317bb5ad56&amp;type=3#580b57fcd9996e24bc43c351&apos;); justify-content: flex-start; -unity-text-align: upper-left; width: 420px; align-items: stretch; max-width: initial; max-height: initial; margin-right: 50px;" />
+            </ui:VisualElement>
+            <ui:VisualElement name="Vidas" style="width: 557px; justify-content: center; height: 69px; margin-top: 10px;" />
+        </ui:VisualElement>
+        <ui:VisualElement name="PanelDer" style="width: 440px; flex-direction: column; background-color: rgba(255, 251, 0, 0);">
+            <ui:VisualElement name="Header" style="height: 159px; -unity-text-align: upper-left; justify-content: center;">
+                <ui:Label text="EQUIPAMIENTO" display-tooltip-when-elided="true" name="TituloEquipamiento" style="height: 112px; font-size: 20px; -unity-text-align: middle-center; background-image: url(&apos;project://database/Assets/desplazamiento-pergamino-abierto-realista-transparente_107791-19331-Photoroom.png-Photoroom.png?fileID=2800000&amp;guid=7e422c3add3e38e4b807806e1878bad9&amp;type=3#desplazamiento-pergamino-abierto-realista-transparente_107791-19331-Photoroom.png-Photoroom&apos;); -unity-font-style: bold; -unity-text-outline-color: rgb(0, 0, 0);" />
+            </ui:VisualElement>
+            <ui:VisualElement name="Body" style="height: 353px; flex-direction: row; flex-wrap: wrap; background-color: rgba(0, 0, 0, 0.38); border-top-left-radius: 15px; border-bottom-left-radius: 15px; border-top-right-radius: 15px; border-bottom-right-radius: 15px; padding-right: 0; margin-right: 10px;">
+                <ui:VisualElement name="ArmaIcono" style="height: 181px; width: 215px; flex-wrap: wrap; background-image: url(&apos;project://database/Assets/8f52cae05221eb0bbd97e04afa19764e-ilustracion-de-espada-de-oro.png?fileID=2800000&amp;guid=1a20efd4d1f697045a44a34856f3238a&amp;type=3#8f52cae05221eb0bbd97e04afa19764e-ilustracion-de-espada-de-oro&apos;); -unity-background-scale-mode: stretch-to-fill;">
+                    <ui:VisualElement name="TextoArma" style="height: 181px; display: flex; visibility: hidden;">
+                        <ui:Label text="Espada legendaria" display-tooltip-when-elided="true" style="height: 13px; margin-top: 20px; width: 212px; -unity-text-align: upper-center; margin-bottom: 10px; font-size: 16px; -unity-font-style: bold;" />
+                        <ui:Label text="Ataque: 10" display-tooltip-when-elided="true" style="padding-top: 5px; padding-bottom: 5px; padding-left: 5px;" />
+                        <ui:Label text="Velocidad: 5" display-tooltip-when-elided="true" style="padding-top: 5px; padding-bottom: 5px; padding-left: 5px;" />
+                        <ui:Label text="Penetracion: 2" display-tooltip-when-elided="true" style="padding-top: 5px; padding-bottom: 5px; white-space: nowrap; padding-left: 5px;" />
+                    </ui:VisualElement>
+                </ui:VisualElement>
+                <ui:VisualElement name="EscudoIcono" style="height: 164px; width: 204px; flex-wrap: wrap; background-image: url(&apos;project://database/Assets/depositphotos_313734032-stock-photo-wooden-medieval-shield-viking-shield-Photoroom.png-Photoroom.png?fileID=2800000&amp;guid=ac2ea6380f8d7a842bd4a4c5a7fd3e85&amp;type=3#depositphotos_313734032-stock-photo-wooden-medieval-shield-viking-shield-Photoroom.png-Photoroom&apos;); -unity-background-scale-mode: scale-to-fit;">
+                    <ui:VisualElement name="TextoEscudo" style="height: 164px; display: flex; visibility: hidden;">
+                        <ui:Label text="Escudo protector" display-tooltip-when-elided="true" style="height: 13px; margin-top: 20px; width: 212px; -unity-text-align: upper-center; margin-bottom: 10px; font-size: 16px; -unity-font-style: bold;" />
+                        <ui:Label text="Defensa: 10" display-tooltip-when-elided="true" style="padding-top: 5px; padding-bottom: 5px; padding-left: 5px;" />
+                        <ui:Label text="Bloqueo: 5" display-tooltip-when-elided="true" style="padding-top: 5px; padding-bottom: 5px; white-space: nowrap; padding-left: 5px;" />
+                    </ui:VisualElement>
+                </ui:VisualElement>
+                <ui:VisualElement name="ArmaduraIcono" style="height: 133px; width: 218px; flex-wrap: wrap; background-image: url(&apos;project://database/Assets/Armor-PNG-Free-Download.png?fileID=2800000&amp;guid=33f45b886de8b874c90a39d850c98108&amp;type=3#Armor-PNG-Free-Download&apos;); -unity-background-scale-mode: scale-to-fit;">
+                    <ui:VisualElement name="TextoArmadura" style="height: 139px; display: flex; visibility: hidden;">
+                        <ui:Label text="Espada legendaria" display-tooltip-when-elided="true" style="height: 13px; margin-top: 20px; width: 212px; -unity-text-align: upper-center; margin-bottom: 10px; font-size: 16px; -unity-font-style: bold;" />
+                        <ui:Label text="Defensa: 15" display-tooltip-when-elided="true" style="padding-top: 5px; padding-bottom: 5px; padding-left: 5px;" />
+                        <ui:Label text="Movilidad: 2" display-tooltip-when-elided="true" style="padding-top: 5px; padding-bottom: 5px; padding-left: 5px;" />
+                    </ui:VisualElement>
+                </ui:VisualElement>
+                <ui:VisualElement name="BotasIcono" style="height: 145px; width: 204px; flex-wrap: wrap; background-image: url(&apos;project://database/Assets/m1542.png?fileID=2800000&amp;guid=d78e8f51aafc71a42a3f75b36c2766d5&amp;type=3#m1542&apos;); -unity-background-scale-mode: scale-to-fit;">
+                    <ui:VisualElement name="TextoBotas" style="height: 133px; display: flex; visibility: hidden;">
+                        <ui:Label text="Espada legendaria" display-tooltip-when-elided="true" style="height: 13px; margin-top: 20px; width: 212px; -unity-text-align: upper-center; margin-bottom: 10px; font-size: 16px; -unity-font-style: bold;" />
+                        <ui:Label text="Defensa: 7" display-tooltip-when-elided="true" style="padding-top: 5px; padding-bottom: 5px; padding-left: 5px;" />
+                        <ui:Label text="Movilidad: 4" display-tooltip-when-elided="true" style="padding-top: 5px; padding-bottom: 5px; padding-left: 5px;" />
+                    </ui:VisualElement>
+                </ui:VisualElement>
+            </ui:VisualElement>
+            <ui:VisualElement name="Footer" style="height: 250px; justify-content: center;">
+                <ui:Slider picking-mode="Ignore" label="Fuerza" value="42" high-value="100" show-input-field="false" name="Slider" style="height: 72px; align-items: center; flex-direction: column; -unity-text-align: upper-center; font-size: 20px; justify-content: space-between;" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

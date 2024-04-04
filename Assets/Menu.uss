@@ -1,0 +1,20 @@
+.Menu {
+    flex-direction: row;
+    height: auto;
+    background-image: url('project://database/Assets/papel-victoriano-destartalado-dorado-vintage-vineta-barroca-imagen-tonificada-fondo-papel-su-mensaje.jpg?fileID=2800000&guid=1811efb3a1d4cd241a5a552c2263cce2&type=3#papel-victoriano-destartalado-dorado-vintage-vineta-barroca-imagen-tonificada-fondo-papel-su-mensaje');
+    -unity-text-outline-color: rgba(0, 0, 0, 255);
+}
+
+.SliderFuerza {
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    -unity-text-align: upper-center;
+    -unity-font-style: bold;
+    height: 44px;
+    cursor: initial;
+}
+
+.Menu {
+    -unity-text-outline-color: rgba(0, 0, 0, 255);
+}

@@ -1,0 +1,5 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <ui:VisualElement tabindex="2" style="height: 110px; width: 540px; justify-content: space-around; flex-direction: row; align-items: center;">
+        <Lab4Control style="flex-direction: row; width: 543px; justify-content: space-around; align-items: center;" />
+    </ui:VisualElement>
+</ui:UXML>
