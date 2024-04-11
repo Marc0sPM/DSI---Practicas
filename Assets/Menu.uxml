@@ -17,8 +17,8 @@
                     <ui:Label text="Estadistica8:  1" display-tooltip-when-elided="true" style="height: 25px; font-size: 16px;" />
                 </ui:VisualElement>
                 <ui:VisualElement name="PlayerIcons" style="height: 320px; width: 106px; margin-left: 15px; align-items: center; justify-content: space-around;">
-                    <ui:VisualElement style="background-image: url(&apos;project://database/Assets/580b57fcd9996e24bc43c351.png?fileID=2800000&amp;guid=6eb93ab1428f2714bbcd1d317bb5ad56&amp;type=3#580b57fcd9996e24bc43c351&apos;); width: 110px; height: 94px;" />
-                    <ui:VisualElement style="width: 87px; height: 91px;" />
+                    <ui:VisualElement name="3DIcon" style="background-image: url(&apos;project://database/Assets/580b57fcd9996e24bc43c351.png?fileID=2800000&amp;guid=6eb93ab1428f2714bbcd1d317bb5ad56&amp;type=3#580b57fcd9996e24bc43c351&apos;); width: 106px; height: 94px;" />
+                    <ui:VisualElement name="16BitsIcon" style="width: 87px; height: 91px; background-image: url(&apos;project://database/Assets/descarga-Photoroom.png-Photoroom.png?fileID=2800000&amp;guid=2d3ff2eb82d853047a00002b065b2b0c&amp;type=3#descarga-Photoroom.png-Photoroom&apos;);" />
                 </ui:VisualElement>
             </ui:VisualElement>
             <ui:VisualElement name="Footer" style="height: 192px; align-items: stretch; margin-left: 10px; background-color: rgba(0, 0, 0, 0.42); border-top-left-radius: 15px; border-bottom-left-radius: 15px; border-top-right-radius: 15px; border-bottom-right-radius: 15px; justify-content: center; width: 242px; flex-direction: column; margin-bottom: 10px;">
@@ -29,7 +29,7 @@
         </ui:VisualElement>
         <ui:VisualElement name="PanelCentral" style="width: 551px; flex-direction: column; background-color: rgba(0, 90, 255, 0); background-image: none; display: flex; align-items: center; justify-content: center; height: 696px;">
             <ui:VisualElement name="Body" style="height: 534px; background-image: none; align-items: center; justify-content: center;">
-                <ui:VisualElement style="height: 74px;" />
+                <ui:VisualElement style="height: 74px; width: 430px;" />
                 <ui:VisualElement name="Personaje" style="height: 426px; background-image: url(&apos;project://database/Assets/580b57fcd9996e24bc43c351.png?fileID=2800000&amp;guid=6eb93ab1428f2714bbcd1d317bb5ad56&amp;type=3#580b57fcd9996e24bc43c351&apos;); justify-content: flex-start; -unity-text-align: upper-left; width: 420px; align-items: stretch; max-width: initial; max-height: initial; margin-right: 50px;" />
             </ui:VisualElement>
             <ui:VisualElement name="Vidas" style="width: 557px; justify-content: center; height: 69px; margin-top: 10px;" />
