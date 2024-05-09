@@ -5,6 +5,9 @@ using UnityEngine.UIElements;
 
 public class Lab2 : MonoBehaviour
 {
+    public static Lab4Control vidas;
+    public static Slider vidasSlider;
+
     private void OnEnable()
     {
         UIDocument document = GetComponent<UIDocument>();
@@ -23,5 +26,15 @@ public class Lab2 : MonoBehaviour
 
         VisualElement menu = rootve.Q<VisualElement>("Menu");
         menu.AddToClassList("Menu");
+
+        vidasSlider = rootve.Q<Slider>("Slider");
+        vidasSlider.RegisterCallback<ChangeEvent<float>>(OnChange);
+    }
+
+    void OnChange(ChangeEvent<float> evt)
+    {
+        Slider target = evt.target as Slider;
+        if(vidas != null)
+            vidas.Estado = (int)target.value;
     }
 }

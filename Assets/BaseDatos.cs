@@ -10,6 +10,8 @@ public class BaseDatos
 {
     public string data = "Images/580b57fcd9996e24bc43c351";
 
+    public int vidas = 2;
+
     string path = "Assets/Resources/save.json";
 
     public StyleBackground getData()
@@ -21,12 +23,15 @@ public class BaseDatos
         BaseDatos jsonToBackground = JsonUtility.FromJson<BaseDatos>(this.data);
         this.data = jsonToBackground.data;
         reader.Close();
+        this.vidas = jsonToBackground.vidas;
+        Lab2.vidasSlider.value = this.vidas;
         return new StyleBackground(AssetDatabase.LoadAssetAtPath<Sprite>(this.data));
     }
 
     public void saveData(string data)
     {
         this.data = data;
+        this.vidas = (int)Lab2.vidasSlider.value;
         StreamWriter writer = new StreamWriter(path);
         string jsonImage = JsonUtility.ToJson(this);
         writer.Write(jsonImage);

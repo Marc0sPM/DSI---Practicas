@@ -18,6 +18,9 @@ public class Lab4 : MonoBehaviour
         VisualElement vidas = root.Q<VisualElement>("Vidas");
 
         VisualTreeAsset template = Resources.Load<VisualTreeAsset>("Templates/Vidas");
-        vidas.Add(template.Instantiate());
+        VisualElement v = template.Instantiate();
+        vidas.Add(v);
+        Lab2.vidas = v.Q<Lab4Control>("Lab4Control");
+        Lab2.vidas.Estado = (int)Lab2.vidasSlider.value;
     }
 }
